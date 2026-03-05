@@ -32,11 +32,12 @@ body {
     max-width: 400px;
     padding: 2.5rem;
     text-align: center;
-    background-color: var(--container-bg-color);
+    background: rgba(23, 23, 23, 0.8);
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.2px);
+    -webkit-backdrop-filter: blur(3.2px);
 }
 
 .container-Signup i.far.fa-envelope-open {
@@ -131,4 +132,5 @@ input:focus {
     100% {
         background-position: 0% 50%;
     }
+
 }
